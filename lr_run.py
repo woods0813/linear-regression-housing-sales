@@ -5,8 +5,8 @@ from lr_main import *
 
 #import data and process (using categorical variables)
 #2 copies one to modify one to keep as is
-df=pd.read_csv(r'C:\Users\Tommy\AppData\Local\Programs\Python\Python37\github\ml-projects\lr\data\train.csv')
-orig_df = pd.read_csv(r'C:\Users\Tommy\AppData\Local\Programs\Python\Python37\github\ml-projects\lr\data\train.csv')
+df=pd.read_csv(r'.\data\train.csv')
+orig_df = pd.read_csv(r'.\data\train.csv')
 
 def run_lr(df, first_iter_combos, second_iter_combos):
     data_proc = data_processor(df, 'SalePrice')
